@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef, useMemo } from "react";
 
 /* ============================================================
    NOVATRACK  -  A school project star finder
-   Built simple, for Class 10. The maths is real, the words are easy.
+   Built simple, for Class 8M. The maths is real, the words are easy.
    Phone points at sky  ->  maths finds the direction  ->  app names the star
    ============================================================ */
 
@@ -442,7 +442,7 @@ export default function NovaTrack() {
           Nova<span style={{ color: C.gold }}>Track</span> <span style={{ fontSize: 22 }}>{'✨'}</span>
         </h1>
         <p style={{ font: `500 14px ${ui}`, color: C.soft, margin: "6px 0 0" }}>
-          A star-finder that shows you how a phone knows which star you are pointing at. Made for a Class 10 science project.
+          A star-finder that shows you how a phone knows which star you are pointing at. Made for a Class 8M science project.
         </p>
         <p style={{ font: `500 12px ${num}`, color: C.blue, margin: "8px 0 0" }}>
           Location set to New Delhi {'·'} Star clock time {raText(lst)}
