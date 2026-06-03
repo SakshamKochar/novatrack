@@ -468,8 +468,19 @@ export default function NovaTrack() {
       {tab === "clock" && <ClockHub />}
       {tab === "quiz" && <div style={{ maxWidth: 620, margin: "0 auto" }}><Quiz /></div>}
 
-      <footer style={{ marginTop: 26, textAlign: "center", font: `500 12px ${ui}`, color: C.soft }}>
-        Tip for your project: the maths here is the real thing astronomy apps use. The phone sensors are shown as sliders so you can play with them on a computer.
+      <footer style={{ marginTop: 32, borderTop: `1px solid ${C.line}`, paddingTop: 24, textAlign: "center" }}>
+        <div style={{ font: `700 18px ${head}`, color: C.gold, marginBottom: 6 }}>
+          Made by Aalya Bhanot
+        </div>
+        <div style={{ font: `500 13px ${ui}`, color: C.soft, marginBottom: 10 }}>
+          Class 8M Science Project
+        </div>
+        <div style={{ font: `600 12px ${ui}`, color: C.text, letterSpacing: "0.05em", marginBottom: 4 }}>
+          The Team
+        </div>
+        <div style={{ font: `500 13px ${ui}`, color: C.soft }}>
+          Aalya Bhanot &nbsp;|&nbsp; Vedanshi Sanghi &nbsp;|&nbsp; Advika Bhimania
+        </div>
       </footer>
     </div>
   );
